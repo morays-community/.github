@@ -1,6 +1,6 @@
 # morays-NEMO
 
-This is a collaborative collection of NEMO experiments executed in the framework of the [Morays](https://github.com/alexis-barge/morays) project.
+This is a collaborative collection of NEMO experiments coupled with ML-based models from the [Morays](https://github.com/alexis-barge/morays) project.
 
 ## Contribute
 
@@ -9,7 +9,7 @@ You can contribute to the collection by creating a repository of your own experi
 ### New Experiment
 
 - Please use the template [NEST](https://github.com/morays-NEMO/NEST) and fill it with your material as described
-- An experiment is supposed to be executed in the Morays framework, please read the [documentation](https://github.com/alexis-barge/morays) to set up yours
+- An experiment is expected to be executed in the Morays framework, please read the [documentation](https://github.com/alexis-barge/morays) to set up yours
 - Potential patches and adjustments must be described in the repository
 
 
