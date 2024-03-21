@@ -2,7 +2,7 @@
 
 _**M**imicking **O**cean **R**elevance with **A**rtificiall**Y** **I**ntelligent **S**nakes_
 
-Morays is a project that illustrates how to deploy ML-based components in ocean models with Eophis.
+[Morays](https://morays-doc.readthedocs.io/en/latest/index.html) is a project that illustrates how to deploy ML-based components in ocean models with Eophis.
 
 It also serves as a platform for collaborative collections of ocean-models experiments conducted within this framework.
 
@@ -21,7 +21,7 @@ You can contribute to the collections by creating a repository of your own exper
 ### New Experiment
 
 - Please use the template corresponding to your code and fill it with your material as described
-- An experiment is expected to be executed in the Morays framework, please read the [documentation](https://github.com/morays-community/morays/tree/main) to set up yours
+- An experiment is expected to be executed in the Morays framework, please read the [documentation](https://morays-doc.readthedocs.io/en/latest/index.html) to set up yours
 - Potential patches and adjustments must be described in the repository
 
 
