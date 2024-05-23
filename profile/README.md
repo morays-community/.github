@@ -2,13 +2,14 @@
 
 _**M**imicking **O**cean **R**elevance with **A**rtificiall**Y** **I**ntelligent **S**nakes_
 
-[Morays](https://morays-doc.readthedocs.io/en/latest/index.html) is a project that illustrates how to deploy ML-based components in ocean models with Eophis.
+[Morays](https://morays-doc.readthedocs.io/en/latest/index.html) is an effort for sharing Machine Learning-based closures for hybrid physics / AI ocean modeling. The project is intended to be ocean model agnostic with commonly agreed templates.
 
-It also serves as a platform for collaborative collections of ocean-models experiments conducted within this framework.
+It also serves as a platform for collaborative collections of examples and use cases for reproducible hybrid ocean modeling experiments.
+
 
 ## Overview
 
-- [Eophis](https://github.com/alexis-barge/eophis/) is a python package built on [OASIS](https://oasis.cerfacs.fr/en/) that facilitates the deployment of inference models (i.e. models based on machine learning components) for coupled runs with Earth-System simulation codes. The last OASIS version allows communication between non-homogeneously written codes. This tool is particularly suitable for our purposes since an OASIS interface already exists in several ocean models.
+[Eophis](https://github.com/meom-group/eophis/) is a library that facilitates the deployment of Python scripts through [OASIS](https://oasis.cerfacs.fr/en/) for coupled runs with Fortran/C geoscientific codes. This tool is particularly suitable for our purposes since an OASIS interface already exists in several ocean models.
 
 - Ocean models taken into consideration in the Morays project are:
     - [NEMO](https://www.nemo-ocean.eu/)
