@@ -2,7 +2,7 @@
 
 _**M**imicking **O**cean **R**elevance with **A**rtificiall**Y** **I**ntelligent **S**nakes_
 
-- [Morays](https://morays-doc.readthedocs.io/en/latest/index.html) is an effort for sharing Machine Learning-based closures for hybrid physics / AI ocean modeling. The project is intended to be ocean model agnostic with commonly agreed templates.
+- [Morays](https://morays-doc.readthedocs.io/en/latest/index.html) is an organization for sharing Machine Learning-based closures for hybrid physics / AI ocean modeling. The project is intended to be ocean model agnostic with commonly agreed templates.
 
 - It also serves as a platform for collaborative collections of examples and use cases for reproducible hybrid ocean modeling experiments.
 
@@ -13,7 +13,7 @@ _**M**imicking **O**cean **R**elevance with **A**rtificiall**Y** **I**ntelligent
 
 ## Strategy
 
-[Eophis](https://github.com/meom-group/eophis/) is a library that facilitates the deployment of Python scripts through [OASIS](https://oasis.cerfacs.fr/en/) for coupled runs with Fortran/C geoscientific codes. This tool is particularly suitable for our purposes since an OASIS interface already exists in several ocean models.
+[Eophis](https://github.com/meom-group/eophis/) is a library that facilitates the deployment of an [OASIS](https://oasis.cerfacs.fr/en/) interface in Python scripts for coupled runs with Fortran/C geoscientific codes. This tool is particularly suitable for our purposes since an OASIS interface already exists in several ocean models.
 
 In this context, a Morays experiment is an ocean simulation in which the physical model sends fields towards an external Python script that contains ML components. The results infered by the ML model are sent back to the ocean and retroactively used for the solution.
 
