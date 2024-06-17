@@ -17,11 +17,11 @@ _**M**imicking **O**cean **R**elevance with **A**rtificiall**Y** **I**ntelligent
 
 In this context, a Morays experiment is an ocean simulation in which the physical model sends fields towards an external Python script that contains ML components. The results infered by the ML model are sent back to the ocean and retroactively used for the solution.
 
-Newcomers are welcomed to start with this [tutorial](https://morays-doc.readthedocs.io/en/latest/getting_started.html).
+Newcomers are welcome to start with this [tutorial](https://morays-doc.readthedocs.io/en/latest/getting_started.html).
 
 ## Contribute
 
-You can contribute to the collections by creating a repository of your own experiment or add a variation of an existing experiment in the corresponding repository.
+You can contribute to the use cases by creating a repository of your own experiment or add a variation of an existing experiment in the corresponding repository.
 
 ### New Experiment
 
