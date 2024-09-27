@@ -78,9 +78,9 @@ Material in this organization is licensed under [BSD 3-clause and Creative Commo
 
 ## Support and bug reports
 
-For reports related to the Morays project in general, please leave an issue in this [repository](https://github.com/morays-community/.github/issues).
+For suggestions or feature requests related to the Morays project in general, please leave an issue in this [repository](https://github.com/morays-community/.github/issues) or start a [discussion](https://github.com/orgs/morays-community/discussions).
 
-For reports about a specific experiment, please leave an issue in the corresponding repository.
+For bug reports related to a specific experiment, please leave an issue in the corresponding repository.
 
 
 
