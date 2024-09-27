@@ -1,36 +1,94 @@
+
 # Morays
 
 _**M**imicking **O**cean **R**elevance with **A**rtificiall**Y** **I**ntelligent **S**nakes_
 
-- [Morays](https://morays-doc.readthedocs.io/en/latest/index.html) is an organization for sharing Machine Learning-based closures for hybrid physics / AI ocean modeling. The project is intended to be ocean model agnostic with commonly agreed templates.
-
-- It also serves as a platform for collaborative collections of examples and use cases for reproducible hybrid ocean modeling experiments.
-
-- Ocean models taken into consideration in the Morays project are:
-    - [NEMO](https://www.nemo-ocean.eu/)
-    - [CROCO](https://www.croco-ocean.org/) (not started yet)
+[![Documentation Status](https://readthedocs.org/projects/morays-doc/badge/?version=latest)](https://morays-doc.readthedocs.io/en/latest/?badge=latest)
 
 
-## Strategy
 
-[Eophis](https://github.com/meom-group/eophis/) is a library that facilitates the deployment of an [OASIS](https://oasis.cerfacs.fr/en/) interface in Python scripts for coupled runs with Fortran/C geoscientific codes. This tool is particularly suitable for our purposes since an OASIS interface already exists in several ocean models.
+## What is Morays organization
 
-In this context, a Morays experiment is an ocean simulation in which the physical model sends fields towards an external Python script that contains ML components. The results infered by the ML model are sent back to the ocean and retroactively used for the solution.
-
-Newcomers are welcome to start with this [tutorial](https://morays-doc.readthedocs.io/en/latest/getting_started.html).
-
-## Contribute
-
-You can contribute to the use cases by creating a repository of your own experiment or add a variation of an existing experiment in the corresponding repository.
-
-### New Experiment
-
-- Please use the template corresponding to your code and fill it with your material as described
-- An experiment is expected to be executed in the Morays framework, please read the [documentation](https://morays-doc.readthedocs.io/en/latest/index.html) to set up yours
-- Potential patches and adjustments must be described in the repository
+[Morays](https://morays-doc.readthedocs.io/en/latest/index.html) provides a collection of deployment examples of the [Eophis](https://github.com/meom-group/eophis/) package in ocean models. It also proposes a solution for sharing the model experiments across centers. Our ambition is to offer a platform for fostering exchanges amongst Eophis users.
 
 
-### Enrich an existing experiment
 
-- You can add a variation of an existing experiment in the corresponding repository
-- Variations must share the same software and scientific environments
+## How Morays works
+
+[OASIS](https://oasis.cerfacs.fr/en/) is a parallelized Fortran coupling library that performs field exchanges between coupled executables. [Eophis](https://github.com/meom-group/eophis/) is a Python library that facilitates the creation and the configuration of an [OASIS](https://oasis.cerfacs.fr/en/) interface in a Python script to couple with Fortran/C geoscientific codes. It can be deployed in any geoscientific model if it does possess an OASIS interface, which is the case of several ocean models within the climate modeling community.
+
+In this context, a Morays experiment is an ocean simulation in which the physical model sends fields towards an external Python script deployed by Eophis. The results computed by the Python model are sent back to the ocean and retroactively used for the solution.
+
+<img width="1118" alt="eophis_oasis_morays" src="https://github.com/user-attachments/assets/33f82493-800b-4a94-bcc1-3de653105a04">
+
+**Typical applications include:**
+- Hybrid Machine Learning (ML) / Physics modeling
+- Deployment of fast evolving high-level libraries in stable low-level environment
+- Prototypal code testing
+
+Main goal of this organization is to store examples of Morays experiments for different ocean models. So far, codes taken into consideration in Morays are:
+- [NEMO](https://www.nemo-ocean.eu/)
+- [CROCO](https://www.croco-ocean.org/) `(not started yet)`
+
+Every Morays experiments are documented in a self contained separate GitHub repository. List of available experiments can be found [here](https://morays-doc.readthedocs.io/en/latest/morays_exp.html).
+
+
+
+## How to reproduce Morays experiments
+
+Each Morays repository provides all the material for reproducing an experiment (code, model configuration, execution scripts, and post-processing for demonstration results).
+
+- Instructions to reproduce NEMO experiment are detailed in this [tutorial](https://morays-doc.readthedocs.io/en/latest/getting_started.html).
+- Instructions to reproduce CROCO experiment are detailed in this `tutorial (soon)`.
+
+
+
+## How to set up a Morays experiment
+
+A Morays experiment must be considered from the Python model side, and the ocean model side.
+
+Eophis does not intend to configure the Python side of the experiment only, but also the global coupling settings. We first encourage you to read the [Eophis documentation](https://eophis.readthedocs.io/en/latest/) to prepare the Python material.
+
+Then, it is required to configure the ocean models in accordance with the coupling deployed by Eophis. Steps are described in Morays documentation:
+- [Instructions and tutorial for NEMO](https://morays-doc.readthedocs.io/en/latest/nemo.html)
+- `Instructions and tutorial for CROCO (soon)`
+
+
+
+## How to contribute
+
+You can contribute to the use cases by adding your own experiment to the Morays organization. 
+
+Guidelines are described [here](https://morays-doc.readthedocs.io/en/latest/morays_exp.html#).
+
+
+
+## How to cite
+
+`WORK IN PROGRESS`
+
+
+## License
+
+Copyright &copy; IGE-MEOM.
+
+Material in this organization is licensed under [BSD 3-clause and Creative Commons Attribution 4.0 International ](https://github.com/morays-community/morays-doc/blob/main/LICENSE).
+
+
+
+## Support and bug reports
+
+For reports related to the Morays project in general, please leave an issue in this [repository](https://github.com/morays-community/.github/issues).
+
+For reports about a specific experiment, please leave an issue in the corresponding repository.
+
+
+
+## Authors and Acknowledgment
+
+Morays is written and maintained by [IGE-MEOM group](https://github.com/meom-group).
+
+Main contacts to this project are:
+
+- Alexis Barge: alexis.barge@proton.me
+- Julien Le Sommer: julien.lesommer@univ-grenoble-alpes.fr
