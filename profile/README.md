@@ -65,7 +65,9 @@ Guidelines are described [here](https://morays-doc.readthedocs.io/en/latest/mora
 
 ## How to cite
 
-`WORK IN PROGRESS`
+To cite a Morays experiment, please use the DOI in the README of the corresponding repository.
+
+In addition, please cite Eophis library with [![DOI](https://zenodo.org/badge/713480336.svg)](https://doi.org/10.5281/zenodo.13852038)
 
 
 ## License
