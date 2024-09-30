@@ -50,8 +50,8 @@ A Morays experiment must be considered from the Python model side, and the ocean
 Eophis does not intend to configure the Python side of the experiment only, but also the global coupling settings. We first encourage you to read the [Eophis documentation](https://eophis.readthedocs.io/en/latest/) to prepare the Python material.
 
 Then, it is required to configure the ocean models in accordance with the coupling deployed by Eophis. Steps are described here:
-- [Create a Morays experiment with NEMO](https://morays-doc.readthedocs.io/en/latest/nemo.html)
-- [Create a Morays experiment with CROCO](https://morays-doc.readthedocs.io/en/latest/croco.html)
+- [Create a Morays experiment with NEMO](https://morays-doc.readthedocs.io/en/latest/nemo.tuto.html)
+- [Create a Morays experiment with CROCO](https://morays-doc.readthedocs.io/en/latest/croco.tuto.html)
 
 
 
