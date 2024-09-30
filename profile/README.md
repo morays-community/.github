@@ -38,8 +38,8 @@ Every Morays experiments are documented in a self contained separate GitHub repo
 
 Each Morays repository provides all the material for reproducing an experiment (code, model configuration, execution scripts, and post-processing for demonstration results).
 
-- Instructions to reproduce NEMO experiment are detailed in this [tutorial](https://morays-doc.readthedocs.io/en/latest/getting_started.html).
-- Instructions to reproduce CROCO experiment are detailed in this `tutorial (soon)`.
+- [Tutorial to reproduce experiments with NEMO](https://morays-doc.readthedocs.io/en/latest/getting_started.html) .
+- `Tutoiral to reproduce experiments with CROCO (soon)`
 
 
 
@@ -50,8 +50,8 @@ A Morays experiment must be considered from the Python model side, and the ocean
 Eophis does not intend to configure the Python side of the experiment only, but also the global coupling settings. We first encourage you to read the [Eophis documentation](https://eophis.readthedocs.io/en/latest/) to prepare the Python material.
 
 Then, it is required to configure the ocean models in accordance with the coupling deployed by Eophis. Steps are described in Morays documentation:
-- [Instructions and tutorial for NEMO](https://morays-doc.readthedocs.io/en/latest/nemo.html)
-- `Instructions and tutorial for CROCO (soon)`
+- [Instructions to set up experiments with NEMO](https://morays-doc.readthedocs.io/en/latest/nemo.html)
+- `Instructions to set up experiments with CROCO (soon)`
 
 
 
@@ -59,7 +59,7 @@ Then, it is required to configure the ocean models in accordance with the coupli
 
 You can contribute to the use cases by adding your own experiment to the Morays organization. 
 
-Guidelines are described [here](https://morays-doc.readthedocs.io/en/latest/morays_exp.html#).
+Guidelines are described [here](https://morays-doc.readthedocs.io/en/latest/contribute.html).
 
 
 
