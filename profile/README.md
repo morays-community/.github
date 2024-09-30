@@ -15,7 +15,7 @@ _**M**imicking **O**cean **R**elevance with **A**rtificiall**Y** **I**ntelligent
 
 ## How Morays works
 
-[OASIS](https://oasis.cerfacs.fr/en/) is a parallelized Fortran coupling library that performs field exchanges between coupled executables. [Eophis](https://github.com/meom-group/eophis/) is a Python library that facilitates the creation and the configuration of an [OASIS](https://oasis.cerfacs.fr/en/) interface in a Python script to couple with Fortran/C geoscientific codes. It can be deployed in any geoscientific model if it does possess an OASIS interface, which is the case of several ocean models within the climate modeling community.
+[OASIS](https://oasis.cerfacs.fr/en/) is a parallelized Fortran coupling library that performs field exchanges between coupled executables. [Eophis](https://github.com/meom-group/eophis/) is a Python library that facilitates the creation and the configuration of an [OASIS](https://oasis.cerfacs.fr/en/) environment in a Python script to couple with Fortran/C geoscientific codes. It can be deployed with any geoscientific model if it does possess an OASIS interface, which is the case of several ocean models within the climate modeling community.
 
 In this context, a Morays experiment is an ocean simulation in which the physical model sends fields towards an external Python script deployed by Eophis. The results computed by the Python model are sent back to the ocean and retroactively used for the solution.
 
@@ -23,10 +23,10 @@ In this context, a Morays experiment is an ocean simulation in which the physica
 
 **Typical applications include:**
 - Hybrid Machine Learning (ML) / Physics modeling
-- Deployment of fast evolving high-level libraries in stable low-level environment
+- Deployment of fast evolving high-level libraries in stable low-level codes
 - Prototypal code testing
 
-Main goal of this organization is to store examples of Morays experiments for different ocean models. So far, codes taken into consideration in Morays are:
+Main purpose of this organization is to store examples of Morays experiments for different ocean models. So far, codes taken into consideration in Morays are:
 - [NEMO](https://www.nemo-ocean.eu/)
 - [CROCO](https://www.croco-ocean.org/) `(not started yet)`
 
@@ -38,20 +38,20 @@ Every Morays experiments are documented in a self contained separate GitHub repo
 
 Each Morays repository provides all the material for reproducing an experiment (code, model configuration, execution scripts, and post-processing for demonstration results).
 
-- [Tutorial to reproduce experiments with NEMO](https://morays-doc.readthedocs.io/en/latest/getting_started.html) .
-- `Tutoiral to reproduce experiments with CROCO (soon)`
+- [Tutorial to reproduce experiments with NEMO](https://morays-doc.readthedocs.io/en/latest/nemo.getting_started.html) .
+- [Tutorial to reproduce experiments with CROCO](https://morays-doc.readthedocs.io/en/latest/croco.getting_started.html)
 
 
 
-## How to set up a Morays experiment
+## How to create a Morays experiment
 
 A Morays experiment must be considered from the Python model side, and the ocean model side.
 
 Eophis does not intend to configure the Python side of the experiment only, but also the global coupling settings. We first encourage you to read the [Eophis documentation](https://eophis.readthedocs.io/en/latest/) to prepare the Python material.
 
-Then, it is required to configure the ocean models in accordance with the coupling deployed by Eophis. Steps are described in Morays documentation:
-- [Instructions to set up experiments with NEMO](https://morays-doc.readthedocs.io/en/latest/nemo.html)
-- `Instructions to set up experiments with CROCO (soon)`
+Then, it is required to configure the ocean models in accordance with the coupling deployed by Eophis. Steps are described here:
+- [Create a Morays experiment with NEMO](https://morays-doc.readthedocs.io/en/latest/nemo.html)
+- [Create a Morays experiment with CROCO](https://morays-doc.readthedocs.io/en/latest/croco.html)
 
 
 
