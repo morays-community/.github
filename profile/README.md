@@ -38,7 +38,7 @@ Every Morays experiments are documented in a self contained separate GitHub repo
 
 Each Morays repository provides all the material for reproducing an experiment (code, model configuration, execution scripts, and post-processing for demonstration results).
 
-- [Tutorial to reproduce experiments with NEMO](https://morays-doc.readthedocs.io/en/latest/nemo.getting_started.html) .
+- [Tutorial to reproduce experiments with NEMO](https://morays-doc.readthedocs.io/en/latest/nemo.getting_started.html)
 - [Tutorial to reproduce experiments with CROCO](https://morays-doc.readthedocs.io/en/latest/croco.getting_started.html)
 
 
