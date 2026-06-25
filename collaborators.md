@@ -16,6 +16,9 @@ Sorted by projects
 ## NEMO-C1D_PAPA32_AirSeaFluxes ; NEMO-ORCA1_AirSeaFluxes
 - Jiarong Wu : jiarong.wu@nyu.edu
 
+## NEMO-DpC02
+- Sarah Berther : arah.berthet@meteo.fr
+
 ## NEMO-???
 - Thomas Wilder : t.m.wilder@reading.ac.uk
 
