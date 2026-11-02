@@ -54,6 +54,12 @@ Then, it is required to configure the ocean models in accordance with the coupli
 - [Create a Morays experiment with CROCO](https://morays-doc.readthedocs.io/en/latest/croco.tuto.html)
 
 
+## Performances and benchmark
+
+For a detailed description of the Eophis computational performances and comparison with other methods, see:
+
+[Barge et al. (2026) – GMD](https://doi.org/10.5194/gmd-19-10345-2026)
+
 
 ## How to contribute
 
@@ -67,7 +73,7 @@ Guidelines are described [here](https://morays-doc.readthedocs.io/en/latest/cont
 
 To cite a Morays experiment, please use the DOI in the README of the corresponding repository.
 
-In addition, please cite Eophis library with [![DOI](https://zenodo.org/badge/713480336.svg)](https://doi.org/10.5281/zenodo.13852038) and/or [GMD publication](https://doi.org/10.5194/gmd-19-10345-2026).
+In addition, please cite Eophis library with [![DOI](https://zenodo.org/badge/713480336.svg)](https://doi.org/10.5281/zenodo.13852038)
 
 
 ## License
