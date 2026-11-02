@@ -15,11 +15,11 @@ _**M**imicking **O**cean **R**elevance with **A**rtificiall**Y** **I**ntelligent
 
 ## How Morays works
 
-[OASIS3-MCT](https://oasis.cerfacs.fr/en/) is a parallelized Fortran coupling library that performs field exchanges between coupled executables. [Eophis](https://github.com/meom-group/eophis/) is a Python library that facilitates the creation and the configuration of an [OASIS3-MCT](https://oasis.cerfacs.fr/en/) environment in a Python script to couple with Fortran/C geoscientific codes. It can be deployed with any geoscientific model if it does possess an OASIS3-MCT interface, which is the case of several ocean models within the climate modeling community.
+[OASIS3-MCT](https://oasis.cerfacs.fr/en/) is a parallelized Fortran coupling library that performs field exchanges between coupled Earth System Model (ESM) components. [Eophis](https://github.com/meom-group/eophis/) is a Python library that facilitates the creation and the configuration of an [OASIS3-MCT](https://oasis.cerfacs.fr/en/) environment in a Python script to couple with Fortran ESM. It can be deployed with any ESM that does possess an OASIS3-MCT interface, which is the case of several ocean models within the climate modeling community.
 
-In this context, a Morays experiment is an ocean simulation in which the physical model sends fields towards an external Python script deployed by Eophis. The results computed by the Python model are sent back to the ocean and retroactively used for the solution.
+In this context, a Morays experiment is an ocean simulation in which the ESM sends fields towards an external Python script deployed by Eophis. The results computed by the Python script are sent back to the ocean and used for the solution.
 
-<img width="1118" alt="eophis_oasis_morays" src="https://github.com/user-attachments/assets/33f82493-800b-4a94-bcc1-3de653105a04">
+<img width="1125" height="214" alt="Image" src="https://github.com/user-attachments/assets/aa313e6f-a739-409a-b870-391ae41a5053" />
 
 **Typical applications include:**
 - Hybrid Machine Learning (ML) / Physics modeling
@@ -67,7 +67,7 @@ Guidelines are described [here](https://morays-doc.readthedocs.io/en/latest/cont
 
 To cite a Morays experiment, please use the DOI in the README of the corresponding repository.
 
-In addition, please cite Eophis library with [![DOI](https://zenodo.org/badge/713480336.svg)](https://doi.org/10.5281/zenodo.13852038)
+In addition, please cite Eophis library with [![DOI](https://zenodo.org/badge/713480336.svg)](https://doi.org/10.5281/zenodo.13852038) and/or [GMD publication](https://doi.org/10.5194/gmd-19-10345-2026).
 
 
 ## License
